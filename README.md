@@ -30,11 +30,11 @@
 
 
 
-##### !\[Pasted image z1t1](https://github.com/Ba6ai/Lab1/blob/main/image/z1t1.png)
+##### !\[Pasted image z1t1.png](https://github.com/Ba6ai/Lab1/blob/main/image/z1t1.png)
 
 ##### 
 
-##### !\[Pasted image z1t2]https://github.com/Ba6ai/Lab1/blob/main/image/z1t2.png)
+##### !\[Pasted image z1t2.png]https://github.com/Ba6ai/Lab1/blob/main/image/z1t2.png)
 
 
 
@@ -64,5 +64,5 @@
 
 ### Тестирование
 
-### !\[Pasted image z2t1](https://github.com/Ba6ai/Lab1/blob/main/image/z2t1.png)
+### !\[Pasted image z2t1.png](https://github.com/Ba6ai/Lab1/blob/main/image/z2t1.png)
 
