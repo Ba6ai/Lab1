@@ -30,11 +30,11 @@
 
 
 
-### !\[](skrin/z1t1.png)
+!\[](skrin/z1t1.png)
 
 ### 
 
-### !\[](skrin/z1t2.png)
+!\[](skrin/z1t2.png)
 
 
 
