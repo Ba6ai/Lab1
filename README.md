@@ -30,7 +30,7 @@
 
 
 
-##### !\[](image/z1t1.png)
+##### !\[](main/image/z1t1.png)
 
 ##### 
 
