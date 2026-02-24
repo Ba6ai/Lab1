@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t3czMjtp/Vw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\Lab1\\F#\\F#.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elise\\.nuget\\packages\\fsharp.core\\8.0.400\\fsharp.core.8.0.400.nupkg.sha512"
+  ],
+  "logs": []
+}
