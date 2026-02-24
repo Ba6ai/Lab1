@@ -30,11 +30,11 @@
 
 
 
-##### !\[](main/image/z1t1.png)
+##### !\[](https://github.com/Ba6ai/Lab1/blob/main/image/z1t1.png)
 
 ##### 
 
-##### !\[](image/z1t2.png)
+##### !\[](https://github.com/Ba6ai/Lab1/blob/main/image/z1t2.png)
 
 
 
@@ -64,5 +64,5 @@
 
 ### Тестирование
 
-### !\[](skrin/z2t1.png)
+### !\[](https://github.com/Ba6ai/Lab1/blob/main/image/z2t1.png)
 
