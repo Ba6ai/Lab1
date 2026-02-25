@@ -1,28 +1,29 @@
-﻿open System //библиотека
+﻿open System
 
-                //список целых чисел   //возвр список целых чисел
-let rec inputNum (currentList: int list) : int list = //рекурсивная функция inputNum
+// Добавление цифры список
+let rec inputNum (currentList: int list) : int list = 
     printfn "Формирования списка из последних цифр"
     printfn "Введите 'ex' для завершения кода"
     let input = Console.ReadLine()
     
     if input = "ex" then
-        currentList // возвращение текущего списка
+        currentList 
     else
-        match Int32.TryParse(input) with // преобразование строки в число
-        | (true, num) -> //проверка на правильность преобразования
-            let x = num%10 //берётся последнее цифра в числе
-            inputNum(currentList @[x]) //добавление числа к текущему списку
+        match Int32.TryParse(input) with 
+        | (true, num) -> 
+            let x = num%10 
+            inputNum(currentList @[x])
         | (false, _) ->
             printfn "Ошибка! Введите корректное число."
-            inputNum currentList // Пробуем снова
+            inputNum currentList
           
-let rec minNum (n: int) : int= // поиск минимума
+// Поиск минимальной цифры в числе
+let rec minNum (n: int) : int=
     if n < 10 then n
     else
-        let lastDigit = n % 10 // Последняя цифра
-        let restMin = minNum (n / 10) // Минимальная цифра в оставшейся части
-        min lastDigit restMin // Возвращаем минимальную из двух
+        let lastDigit = n % 10 
+        let restMin = minNum (n / 10) 
+        min lastDigit restMin 
 
 type Complex = { re: float; im: float }
 
@@ -44,7 +45,7 @@ let div x y =
     { re = (x.re * y.re + x.im * y.im) / znam
       im = (x.im * y.re - x.re * y.im) / znam }
 
-// Возведение в степень (целую)
+// Возведение в степень
 let rec pow z n =
     match n with
     | 0 -> { re = 1.0; im = 0.0 }
@@ -59,8 +60,7 @@ let printComplex (c: Complex) =
     else
         printf "%f - %fi" c.re (abs c.im)
 
-
-[<EntryPoint>] //точка входа
+[<EntryPoint>]
 let main _ =
     let res = inputNum[]
     printfn "Список завершён %A" res
@@ -105,4 +105,4 @@ let main _ =
     printComplex (pow a -1)
     printfn ""
 
-    0 // то же что и return 0
+    0
